@@ -1,0 +1,135 @@
+1. Schach spielen
+
+	Eindeutigkeit: 
+		Die Beschreibung legt fest, dass abwechselnd ein Zug von Weiß 
+		und Schwarz ausgeführt wird, solange kein Schachmatt vorliegt. 
+		Das Verfahren ist jedoch nicht eindeutig in Bezug auf die 
+		spezifischen Züge, die ausgeführt werden sollen.
+
+	Ausführbarkeit: 
+		Ja, jeder Zug kann ausgeführt werden, allerdings sind die möglichen 
+		Züge nicht spezifiziert.
+
+	Endlichkeit: 
+		Schach ist ein endliches Spiel, weil es eine begrenzte Anzahl von 
+		möglichen Stellungen gibt. Allerdings kann das Verfahren theoretisch 
+		unendlich laufen, wenn keine Seite Schachmatt gesetzt wird.
+	
+	Allgemeinheit: 
+		Ja, es gilt für jede mögliche Schachpartie.
+	
+	Ergebnis: 
+		Es handelt sich nicht um einen Algorithmus, da die Eindeutigkeit 
+		fehlt (die Züge sind nicht festgelegt), und es gibt keine Garantie,
+		dass das Verfahren terminiert (Schach kann theoretisch unendlich 
+		gespielt werden, z. B. durch dreifache Stellungswiederholung oder 
+		Dauerschach).
+
+2. Primzahlen auflisten
+
+	Eindeutigkeit: 
+		Jeder Schritt ist klar und eindeutig definiert.
+	
+	Ausführbarkeit: 
+		Jeder Schritt ist in endlicher Zeit durchführbar.
+	
+	Endlichkeit: 
+		Die Beschreibung endet nicht, da das Verfahren darauf abzielt,
+		alle Primzahlen aufzulisten, was eine unendliche Menge ist.
+	
+	Allgemeinheit: 
+		Das Verfahren ist allgemein anwendbar, da es für jede Zahl im 
+		Unendlichen eine Primzahl finden kann.
+
+	Ergebnis: 
+		Dies ist kein vollständiger Algorithmus, weil er nicht terminiert; 
+		es ist jedoch ein korrektes Verfahren zur Ermittlung einer 
+		unendlichen Menge von Primzahlen.
+
+3. Würfeln
+		
+	Eindeutigkeit: 
+		Jeder Schritt ist klar und eindeutig beschrieben.
+
+	Ausführbarkeit: 
+		Jeder Schritt ist in endlicher Zeit durchführbar.
+
+	Endlichkeit: 
+		Das Verfahren terminiert garantiert, weil es eine Zufallszahl 
+		von 1 bis 6 erzeugt und die Wahrscheinlichkeit, irgendwann eine 
+		6 zu würfeln, bei 1 liegt.
+
+	Allgemeinheit: 
+		Das Verfahren ist allgemein anwendbar, um zu zählen, 
+		wie viele Versuche nötig sind, um eine 6 zu würfeln.
+
+	Ergebnis: 
+		Dies ist ein Algorithmus, weil er eindeutig, ausführbar, 
+		endlich und allgemein ist.
+
+
+1. Игра в шахматы
+
+	Однозначность: 
+		Описание гласит, что ходы выполняются поочередно белыми и черными, 
+		пока не объявлен мат. Однако процедура не определяет конкретные 
+		ходы, которые нужно делать.
+
+	Выполнимость: 
+		Да, каждый ход можно выполнить, но конкретные возможные ходы не 
+		указаны.
+
+	Конечность: 
+		Шахматы — конечная игра, так как существует ограниченное количество 
+		возможных позиций. Тем не менее, процедура может теоретически 
+		длиться бесконечно, если ни одна из сторон не будет поставлена в мат.
+
+	Общность: 
+		Да, процедура применима для любой шахматной партии.
+
+	Вывод: 
+		Это не является алгоритмом, так как отсутствует однозначность 
+		(ходы не определены), и нет гарантии, что процедура завершится 
+		(теоретически шахматы можно играть бесконечно, например, 
+		из-за троекратного повторения позиции или вечного шаха).
+
+2. Перечисление простых чисел
+
+	Однозначность: 
+		Каждый шаг четко и однозначно определен.
+
+	Выполнимость: 
+		Каждый шаг выполняется за конечное время.
+
+	Конечность: 
+		Описание не завершится, так как процедура предполагает перечисление
+		всех простых чисел, что является бесконечным множеством.
+
+	Общность: 
+		Процедура применима для любого числа в бесконечности, чтобы найти 
+		простое число.
+	
+	Вывод: 
+		Это не является полным алгоритмом, потому что нет конечности; 
+		однако это корректная процедура для нахождения бесконечного 
+		множества простых чисел.
+
+3. Бросок кубика
+
+	Однозначность: 
+		Каждый шаг четко и однозначно описан.
+
+	Выполнимость:
+		Каждый шаг выполняется за конечное время.
+
+	Конечность: 
+		Процедура гарантированно завершится, так как генерируется случайное 
+		число от 1 до 6, и вероятность того, что в какой-то момент выпадет 
+		6, равна 1.
+
+	Общность: 
+		Процедура применима для любого случая, когда требуется подсчитать 
+		количество попыток до выпадения числа 6.
+
+	Вывод: 
+		Это алгоритм, так как он удовлетворяет всем критериям.
