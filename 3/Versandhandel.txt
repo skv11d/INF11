@@ -1,0 +1,11 @@
+kaufsumme = float(input("Geben Sie die Kaufsumme ein: "))
+
+if kaufsumme < 500:
+    if kaufsumme < 100: 
+        rechnungsbetrag = kaufsumme + 5.9
+    else: 
+        rechnungsbetrag = kaufsumme
+else: 
+    rechnungsbetrag = kaufsumme * 0.98
+    
+print(rechnungsbetrag)
