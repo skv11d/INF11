@@ -1,6 +1,6 @@
 liste = [1, "a", 0, 0, "a", 1, 1, "a", 0, 1, 0, "a"]
 
-element = input()
+element = input("Geben Sie ein Element ein: ")
 zaehler = -1
 posListe = []
 
