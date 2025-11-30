@@ -1,0 +1,12 @@
+Zeichen ::= '+' | '-'
+
+Null ::= '0'
+
+Ziffern ::= '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' 
+
+ZiffernOhneNull ::= '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' 
+
+Ganzzahlteil ::= ZiffernOhneNull Ziffern+ | Null
+Dezilmalteil ::= Ziffern+
+
+Zahl ::= Zeichen Ganzzahlteil '.' Dezimalteil

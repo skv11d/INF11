@@ -1,0 +1,9 @@
+User ::= 'b'+
+
+Subdomain ::= 'b'+
+
+Topdomain ::= 'b'+
+
+Domain ::= (Subdomain '.')+ Topdomain
+
+Email ::= User '@'  Domain
