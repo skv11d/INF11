@@ -1,0 +1,29 @@
+Ziffer   ::= '0'
+| '1'
+| '2'
+| '3'
+| '4'
+| '5'
+| '6'
+| '7'
+| '8'
+| '9'
+
+Natzahl ::= Ziffer+
+
+Zahl ::= '-'? NatZahl ('.' Natzahl)?
+
+Leer ::= ' '+
+
+WS ::= Leer+
+
+TurtleAnwP ::= 'fd' WS Zahl|
+'bk' WS Zahl|
+'lt' WS Zahl|
+'rt' WS Zahl
+
+TurtleAnw ::= 'st' | 'ht'
+
+Anwfolge ::= (((TurtleAnw WS)+ (TurtleAnw | TurtleAnwP) | TurtleAnwP)? (TurtleAnw | TurtleAnwP))
+
+Rep ::= 'repeat' WS Zahl WS '[' Anwfolge ']'
